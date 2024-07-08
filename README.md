@@ -24,15 +24,10 @@ The Sign Language Translator is a real-time application that translates sign lan
 
 1. Install the required dependencies using `pip install -r requirements.txt`.
 2. Clone the repository: `https://github.com/WardiansyahF/BISINDO-Translator.git`.
-3. Navigate to the project directory: `cd sign-language-translator`.
-4. Run the Streamlit app: `streamlit run app.py`.
+3. Navigate to the project directory: `cd BISINDO-Translator`.
+4. Run the Streamlit app: `streamlit run translator.py`.
 5. Follow the on-screen instructions to start translating sign language gestures into text.
 
 ## Contributing
 
 Contributions are welcome! If you'd like to contribute to this project, please fork the repository and submit a pull request with your changes.
-
-## Acknowledgements
-
-- Thanks to the contributors of MediaPipe and Streamlit for their fantastic libraries.
-- Special thanks to [mention any specific individuals or organizations you want to acknowledge].
