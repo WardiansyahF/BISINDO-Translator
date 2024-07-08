@@ -1,10 +1,11 @@
+import cv2
 import time
 import joblib
 import streamlit as st
 import pandas as pd
 import mediapipe as mp
 import numpy as np
-import cv2
+
 
 # Setup MediaPipe and load the model
 mp_drawing = mp.solutions.drawing_utils
