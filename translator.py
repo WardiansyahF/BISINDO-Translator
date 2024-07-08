@@ -15,7 +15,7 @@ last_sentence = ""
 last_word_time = time.time()
 
 # Load the pre-trained Random Forest model
-RFC = joblib.load("/hand_gesture_model.sav")
+RFC = joblib.load("/model/hand_gesture_model.sav")
 
 # Streamlit layout
 st.title("Penerjemah Bahasa Isyarat")
