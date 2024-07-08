@@ -1,11 +1,10 @@
-import cv2
 import time
 import joblib
 import streamlit as st
 import pandas as pd
 import mediapipe as mp
 import numpy as np
-
+import cv2
 
 # Setup MediaPipe and load the model
 mp_drawing = mp.solutions.drawing_utils
@@ -16,7 +15,7 @@ last_sentence = ""
 last_word_time = time.time()
 
 # Load the pre-trained Random Forest model
-RFC = joblib.load("/model/hand_gesture_model.sav")
+RFC = joblib.load("hand_gesture_model.sav")
 
 # Streamlit layout
 st.title("Penerjemah Bahasa Isyarat")
