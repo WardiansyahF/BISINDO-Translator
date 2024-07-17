@@ -3,4 +3,4 @@ mediapipe
 numpy
 opencv_python_headless
 pandas
-
+streamlit
