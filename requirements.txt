@@ -4,3 +4,4 @@ numpy
 opencv_python_headless
 pandas
 streamlit
+scikit-learn == 1.4.2
